@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "passportId": "503fcc6a-3431-415f-8273-201fa070c14d",
+      "language": "en-gb",
+      "locator": "urn:bbc:test:bbcideas:undefined-predicate",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/BBCIdeas",
+      "taggings": [
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/Nonexistent",
+          "value": "http://www.bbc.co.uk/things/382c1d38-95e2-4973-88e1-9816990222a8#id"
+        }
+      ],
+      "availability": "NOT_AVAILABLE"
+    }
+  ]
+}

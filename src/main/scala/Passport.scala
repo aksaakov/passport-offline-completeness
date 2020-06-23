@@ -6,7 +6,7 @@ case class Taggings(
 )
 case class Passport(
   passportId: String,
-  language: String,
+  language: Option[String],
   locator: String,
   home: String,
   taggings: List[Taggings],

@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "passportId": "503fcc6a-3431-415f-8273-201fa070c14d",
+      "language": "en-gb",
+      "locator": "urn:bbc:test:bbcideas:no-taggings",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/BBCIdeas",
+      "taggings": [],
+      "availability": "NOT_AVAILABLE"
+    }
+  ]
+}

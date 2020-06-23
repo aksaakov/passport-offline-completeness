@@ -12,8 +12,8 @@ object PassportOfflineCompleteness extends HttpConfig {
   val weightingsJson = parse(fromResource("weightings.json").reader()).extract[Teams]
 
   def main(args: Array[String]) = {
-    val locator = "urn:bbc:test:bbcideas:partial"
-    val completeness = getCompleteness(getPassport(locator), weightingsJson)
+    val locator = args(0)
+    val completeness = getCompleteness(getPassport(locator))
     println(s"Completeness of $locator = $completeness")
   }
 
@@ -23,10 +23,10 @@ object PassportOfflineCompleteness extends HttpConfig {
     parse(get(url)).extract[Results].results.head
   }
 
-  def getCompleteness(passport: Passport, weightingsJson: Teams) = {
+  def getCompleteness(passport: Passport) = {
     val team = weightingsJson.teams.filter(team => team.teamName == passport.home).head
     var passportPredicates = passport.taggings.map(tagging => tagging.predicate).distinct
-    if (!passport.language.isEmpty) passportPredicates = "Language" :: passportPredicates
+    if (!passport.language.getOrElse("").isEmpty) passportPredicates = "Language" :: passportPredicates
 
     val passportWeightSum = passportPredicates.map(predicate =>
       team.predicates.find(weighting => weighting.predicate == predicate) match {

@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "passportId": "fbbd6020-753e-4e8f-980f-890f308dc351",
+      "language": "en-gb",
+      "locator": "urn:bbc:test:bbcideas:complete",
+      "home": "http://www.bbc.co.uk/ontologies/passport/home/BBCIdeas",
+      "taggings": [
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialSensitivity",
+          "value": "http://www.bbc.co.uk/things/c6979033-cb72-4d07-9897-adc348a4332e#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/01ae1b0a-ed35-463b-aa8e-69fbc19f8baf#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/contributor",
+          "value": "http://www.bbc.co.uk/things/01ae1b0a-ed35-463b-aa8e-69fbc19f8baf#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/8cea202e-fd45-435a-97de-fcafd9aaf212#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/fb038874-5d62-419c-9d35-eb83834ca7fc#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/d004c2c0-f694-496c-99e5-8ec4985344f7#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/3d8c01e3-f939-4e79-aa8f-67e43f68d665#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "value": "http://www.bbc.co.uk/things/1691d29d-63de-48d2-8239-9b7f26ef2773#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialTone",
+          "value": "http://www.bbc.co.uk/things/93f932b7-2791-42be-b3e0-af5ba3dbc617#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/suitableFor",
+          "value": "http://www.bbc.co.uk/things/376c1218-21c8-496f-a66b-d025dc71dbce#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/commissionedFor",
+          "value": "http://www.bbc.co.uk/things/376c1218-21c8-496f-a66b-d025dc71dbce#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/relevantTo",
+          "value": "http://www.bbc.co.uk/things/376c1218-21c8-496f-a66b-d025dc71dbce#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/creativework/format",
+          "value": "http://www.bbc.co.uk/things/2f040a02-70ff-4755-b23c-6797935b1407#id"
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/genre",
+          "value": "http://www.bbc.co.uk/things/d70770ed-0735-4fcc-856e-9a5dd3b2e219#id"
+        }
+      ],
+      "availability": "AVAILABLE"
+    }
+  ]
+}
