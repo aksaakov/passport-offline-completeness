@@ -1,0 +1,139 @@
+{
+  "teams": [
+    {
+      "teamName": "http://www.bbc.co.uk/ontologies/passport/home/News",
+      "predicates": [
+        {
+          "predicate": "Language",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/genre",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/creativework/format",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/contributor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/commissionedFor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/relevantTo",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialTone",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/suitableFor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialSensitivity",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "teamName": "http://www.bbc.co.uk/ontologies/passport/home/BBCThree",
+      "predicates": [
+        {
+          "predicate": "Language",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/genre",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/creativework/format",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/contributor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/commissionedFor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/relevantTo",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialTone",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/suitableFor",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialSensitivity",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "teamName": "http://www.bbc.co.uk/ontologies/passport/home/BBCIdeas",
+      "predicates": [
+        {
+          "predicate": "Language",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/passport/predicate/About",
+          "weight": 1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/genre",
+          "weight": 0.75
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/creativework/format",
+          "weight": 0.75
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/contributor",
+          "weight": 0.35
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/commissionedFor",
+          "weight": 0.35
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/relevantTo",
+          "weight": 0.35
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialTone",
+          "weight": 0.2
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/bbc/suitableFor",
+          "weight": 0.1
+        },
+        {
+          "predicate": "http://www.bbc.co.uk/ontologies/coreconcepts/editorialSensitivity",
+          "weight": 0.1
+        }
+      ]
+    }
+  ]
+}
