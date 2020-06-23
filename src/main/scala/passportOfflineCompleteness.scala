@@ -24,7 +24,10 @@ object PassportOfflineCompleteness extends HttpConfig {
   }
 
   def getCompleteness(passport: Passport) = {
-    val team = weightingsJson.teams.filter(team => team.teamName == passport.home).head
+    val team = weightingsJson.teams.find(team => team.teamName == passport.home) match {
+      case Some(team) => team
+      case None => weightingsJson.teams.filter(team => team.teamName == "default").head
+    }
     var passportPredicates = passport.taggings.map(tagging => tagging.predicate).distinct
     if (!passport.language.getOrElse("").isEmpty) passportPredicates = "Language" :: passportPredicates
 

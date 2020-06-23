@@ -44,4 +44,10 @@ class PassportOfflineCompletenessSpec extends FunSuite {
     val completeness = PassportOfflineCompleteness.getCompleteness(passport)
     assert(f"$completeness%1.2f" == "0.20")
   }
+
+  test("Use default weightings for an undefined team") {
+    val passport = parse(fromResource("undefinedTeamPassport.json").reader()).extract[Results].results.head
+    val completeness = PassportOfflineCompleteness.getCompleteness(passport)
+    assert(f"$completeness%1.2f" == "0.44")
+  }
 }
