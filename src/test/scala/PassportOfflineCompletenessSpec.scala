@@ -33,6 +33,12 @@ class PassportOfflineCompletenessSpec extends FunSuite {
     assert(f"$completeness%1.2f" == "0.20")
   }
 
+  test("Handle a passport with nothing added") {
+    val passport = parse(fromResource("nothingPassport.json").reader()).extract[Results].results.head
+    val completeness = PassportOfflineCompleteness.getCompleteness(passport)
+    assert(f"$completeness%1.2f" == "0.00")
+  }
+
   test("Handle a passport containing a predicate with no defined weighting") {
     val passport = parse(fromResource("undefinedPredicatePassport.json").reader()).extract[Results].results.head
     val completeness = PassportOfflineCompleteness.getCompleteness(passport)
