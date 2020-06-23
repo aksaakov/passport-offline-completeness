@@ -1,29 +1,29 @@
-package main.scala
+package bbc.dpub.PassportOfflineCompleteness
 
 case class Taggings(
-                     predicate: String,
-                     value: String
-                   )
+  predicate: String,
+  value: String
+)
 case class Passport(
-                     passportId: String,
-                     language: String,
-                     locator: String,
-                     home: String,
-                     taggings: List[Taggings],
-                     availability: String
-                   )
+  passportId: String,
+  language: String,
+  locator: String,
+  home: String,
+  taggings: List[Taggings],
+  availability: String
+)
 case class Results(
-                    results: List[Passport]
-                  )
+  results: List[Passport]
+)
 
-case class Weightings(
-                       predicate: String,
-                       weight: Double
-                     )
+case class Weighting(
+  predicate: String,
+  weight: Double
+)
 case class Team(
-                       teamName: String,
-                       predicates: List[Weightings]
-                     )
+  teamName: String,
+  predicates: List[Weighting]
+)
 case class Teams(
-                           teams: List[Team]
-                         )
+  teams: List[Team]
+)

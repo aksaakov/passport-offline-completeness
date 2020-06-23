@@ -1,4 +1,4 @@
-package bbc.cps.vivostreamnotificationbridge.util
+package bbc.dpub.PassportOfflineCompleteness
 
 import dispatch.Http
 import javax.net.ssl.SSLContext
